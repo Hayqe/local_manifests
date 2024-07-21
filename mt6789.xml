@@ -4,14 +4,17 @@
         revision="lineage-21" />
     <remote name="lineageos" fetch="https://github.com/LineageOS"
     	revision="lineage-21" />
+    `<remote name="hayketjemmes" fetch="https://github.com/hayketjemmes"
+    	revision="lineage-21" />
 
     <!-- Device / Kernel prebuilts -->
     <project path="device/xiaomi/yunluo" name="android_device_xiaomi_yunluo"
-        remote="6789-dev" />
+        remote="hayketjemmes" />
     <project path="device/xiaomi/yunluo-kernel"
         name="android_device_xiaomi_yunluo-kernel"
         remote="6789-dev" />
-
+    
+    <!-- selinux -->
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr"
         remote="lineageos" />
 
