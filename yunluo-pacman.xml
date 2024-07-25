@@ -1,33 +1,32 @@
 <manifest>
     <!-- Remotes -->
     <remote name="6789-dev" fetch="https://github.com/xiaomi-mt6789-devs" revision="lineage-21" />
+    <remote name="nothing" fetch="https://github.com/nothing-Pacman" revision="lineage-21" />    
     <remote name="lineageos" fetch="https://github.com/LineageOS" revision="lineage-21" />
     <remote name="hayketjemmes" fetch="https://github.com/hayketjemmes" revision="lineage-21" />
     <remote name = "lineageos4microg" fetch="https://github.com/lineage4microg" revision="master" />
 
     <!-- Device / Kernel prebuilts -->
-    <project path="device/xiaomi/yunluo" name="android_device_xiaomi_yunluo"
-        remote="hayketjemmes" />
-    <project path="device/xiaomi/yunluo-kernel"
-        name="android_device_xiaomi_yunluo-kernel"
-        remote="6789-dev" />
+    <project path="device/xiaomi/yunluo" name="android_device_xiaomi_yunluo" remote="hayketjemmes" />
+    <project path="device/xiaomi/yunluo-kernel" name="android_device_xiaomi_yunluo-kernel" remote="6789-dev" />
+    <project path="device/nothing/pacman" name="android_device_nothing_pacman" remote="nothing" />
+     <project path="device/nothing/pacman-kernel" name="android_device_nothing_pacman-kernel" remote="nothing" />
     
     <!-- selinux -->
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr"
         remote="lineageos" />
 
     <!-- Hardware -->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi"
-        remote="lineageos" />
-
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineageos" />
     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="6789-dev" />
 
     <!-- Proprietary vendor -->
-    <project path="vendor/xiaomi/yunluo" name="android_vendor_xiaomi_yunluo"
-        remote="6789-dev" />
+    <project path="vendor/xiaomi/yunluo" name="android_vendor_xiaomi_yunluo" remote="6789-dev" />
+    <project path="vendor/nothing/pacman" name="android_vendor_nothing_pacman" remote="nothing" />
 
+<!--
     <!-- MicroG -->
      <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms"
         remote="lineage4microg" />
-
+-->
 </manifest>
