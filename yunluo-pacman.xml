@@ -24,8 +24,8 @@
     <project path="vendor/xiaomi/yunluo" name="android_vendor_xiaomi_yunluo" remote="6789-dev" />
     <project path="vendor/nothing/pacman" name="android_vendor_nothing_pacman" remote="nothing" />
 
-<!--
-    <!-- MicroG -->
+
+    <!-- MicroG 
      <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms"
         remote="lineage4microg" />
 -->
