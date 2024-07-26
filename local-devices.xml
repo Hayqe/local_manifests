@@ -8,16 +8,23 @@
     <!-- Device / Kernel prebuilts -->
     <project path="device/xiaomi/yunluo" name="android_device_xiaomi_yunluo" remote="hayketjemmes" />
     <project path="device/xiaomi/yunluo-kernel" name="android_device_xiaomi_yunluo-kernel" remote="6789-dev" />
+    <project path="device/xiaomi/garnet" name="android_device_xiaomi_garnet" remote="hayketjemmes" />
+    <project path="device/xiaomi/garnet" name="android_xiaomi_kernel_garnet" remote="hayketjemmes" />
+    <project path="device/nothing/pacman" name="android_device_nothing_pacman" remote="nothing" />
+    <project path="device/nothing/pacman-kernel" name="android_device_nothing_pacman-kernel" remote="nothing" />
     
     <!-- selinux -->
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr"
         remote="lineageos" />
 
-    <!-- Hardware -->
+    <!-- Hardware for yunluo / mediatek-->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineageos" />
     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="hayketjemmes" />
 
     <!-- Proprietary vendor -->
     <project path="vendor/xiaomi/yunluo" name="android_vendor_xiaomi_yunluo" remote="6789-dev" />
-    
+    <project path="vendor/xiaomi/garnet" name="proprietary_vendor_xiaomi_garnet" remote="hayketjemmes" />
+    <project path="vendor/nothing/pacman" name="android_vendor_nothing_pacman" remote="nothing" />
+
+   
 </manifest>
