@@ -1,13 +1,12 @@
 <manifest>
     <!-- Remotes -->
-    <remote name="6789-dev" fetch="https://github.com/xiaomi-mt6789-devs" revision="lineage-21" />
     <remote name="lineageos" fetch="https://github.com/LineageOS" revision="lineage-21" />
     <remote name="hayketjemmes" fetch="https://github.com/hayketjemmes" revision="lineage-21" />
     
 
     <!-- Device / Kernel prebuilts -->
     <project path="device/xiaomi/yunluo" name="android_device_xiaomi_yunluo" remote="hayketjemmes" />
-    <project path="device/xiaomi/yunluo-kernel" name="android_device_xiaomi_yunluo-kernel" remote="6789-dev" />
+    <project path="device/xiaomi/yunluo-kernel" name="android_device_xiaomi_yunluo-kernel" remote="hayketjemmes" />
     <project path="device/xiaomi/garnet" name="android_device_xiaomi_garnet" remote="hayketjemmes" />
     <project path="device/xiaomi/garnet" name="android_xiaomi_kernel_garnet" remote="hayketjemmes" />
     <project path="device/nothing/pacman" name="android_device_nothing_pacman" remote="nothing" />
@@ -22,7 +21,7 @@
     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="hayketjemmes" />
 
     <!-- Proprietary vendor -->
-    <project path="vendor/xiaomi/yunluo" name="android_vendor_xiaomi_yunluo" remote="6789-dev" />
+    <project path="vendor/xiaomi/yunluo" name="android_vendor_xiaomi_yunluo" remote="hayketjemmes" />
     <project path="vendor/xiaomi/garnet" name="proprietary_vendor_xiaomi_garnet" remote="hayketjemmes" />
     <project path="vendor/nothing/pacman" name="android_vendor_nothing_pacman" remote="nothing" />
 
