@@ -8,7 +8,7 @@
     <project path="device/xiaomi/yunluo" name="android_device_xiaomi_yunluo" remote="hayqe" />
     <project path="device/xiaomi/yunluo-kernel" name="android_device_xiaomi_yunluo-kernel" remote="hayqe" />
     <project path="device/xiaomi/garnet" name="android_device_xiaomi_garnet" remote="hayqe" />
-    <project path="device/xiaomi/garnet" name="android_xiaomi_kernel_garnet" remote="hayqe" />
+    <project path="device/xiaomi/garnet-kernel" name="android_xiaomi_kernel_garnet" remote="hayqe" />
     <project path="device/nothing/pacman" name="android_device_nothing_pacman" remote="nothing" />
     <project path="device/nothing/pacman-kernel" name="android_device_nothing_pacman-kernel" remote="nothing" />
     
