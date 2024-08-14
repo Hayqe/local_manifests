@@ -2,7 +2,6 @@
     <!-- Remotes -->
     <remote name="lineageos" fetch="https://github.com/LineageOS" revision="lineage-21" />
     <remote name="hayqe" fetch="https://github.com/hayqe" revision="lineage-21" />
-    <remote name="nothing" fetch="https://github.com/nothing-Pacman/" revision="lineage-21" />
 
 
     <!-- Device / Kernel prebuilts -->
@@ -10,8 +9,7 @@
     <project path="device/xiaomi/yunluo-kernel" name="android_device_xiaomi_yunluo-kernel" remote="hayqe" />
     <project path="device/xiaomi/garnet" name="android_device_xiaomi_garnet" remote="hayqe" />
     <project path="device/xiaomi/garnet-kernel" name="android_xiaomi_kernel_garnet" remote="hayqe" />
-    <project path="device/nothing/pacman" name="android_device_nothing_pacman" remote="nothing" />
-    <project path="device/nothing/pacman-kernel" name="android_device_nothing_pacman-kernel" remote="nothing" />
+
     
     <!-- selinux -->
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr"
@@ -24,7 +22,6 @@
     <!-- Proprietary vendor -->
     <project path="vendor/xiaomi/yunluo" name="android_vendor_xiaomi_yunluo" remote="hayqe" />
     <project path="vendor/xiaomi/garnet" name="proprietary_vendor_xiaomi_garnet" remote="hayqe" />
-    <project path="vendor/nothing/pacman" name="android_vendor_nothing_pacman" remote="nothing" />
 
    
 </manifest>
