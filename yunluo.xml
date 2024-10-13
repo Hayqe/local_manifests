@@ -12,7 +12,7 @@
         remote="lineageos" />
 
     <!-- Hardware for yunluo / mediatek-->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineageos" />
+    <!--project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineageos" /-->
 
     <!-- Proprietary vendor -->
     <project path="vendor/xiaomi/yunluo" name="android_vendor_xiaomi_yunluo" remote="hayqe" />
