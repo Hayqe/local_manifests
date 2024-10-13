@@ -1,0 +1,24 @@
+<manifest>
+    <!-- Remotes -->
+    <remote name="lineageos" fetch="https://github.com/LineageOS" revision="lineage-21" />
+    <remote name="hayqe" fetch="https://github.com/hayqe" revision="lineage-21" />
+    <remote name = 'garnet-x' fetch= 'https://github.com/Garnet-X' revision ='14.0' />
+    <remote name = 'viper' fetch= 'https://github.com/Garnet-X' revision ='v4a' />
+     
+
+    <!-- Device / Kernel prebuilts -->
+    <project path="device/xiaomi/garnet" name="android_device_xiaomi_garnet" remote="garnet-x" />
+    <project path="device/xiaomi/garnet-kernel" name="device_xiaomi_garnet-kernel" remote="garnet-x" />
+
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="garnet-x" />
+
+
+    <!-- Proprietary vendor -->
+    <project path="vendor/xiaomi/garnet" name="propietary_vendor_xiaomi_garnet" remote="garnet-x" />
+
+
+    <!-- Packages -->
+    <!--project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="viper" /-->
+</manifest>
