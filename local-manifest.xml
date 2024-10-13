@@ -1,7 +1,5 @@
 <manifest>
     <!-- Remotes -->
-    <remote name="lineageos" fetch="https://github.com/LineageOS" revision="lineage-21" />
-    <remote name="hayqe" fetch="https://github.com/hayqe" revision="lineage-21" />
     <remote name = 'garnet-x' fetch= 'https://github.com/Garnet-X' revision ='14.0' />
     <remote name = 'viper' fetch= 'https://github.com/Garnet-X' revision ='v4a' />
      
