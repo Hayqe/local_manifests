@@ -1,16 +1,25 @@
 <manifest>
     <!-- Remotes -->
-    <remote name = 'garnet-x' fetch= 'https://github.com/Garnet-X' revision ='14.0' />
-    <remote name = 'viper' fetch= 'https://github.com/Garnet-X' revision ='v4a' />
-     
+    <remote name = 'garnet-x' fetch='https://github.com/Garnet-X' revision ='14.0' />
+    <remote name = 'viper' fetch='https://github.com/Garnet-X' revision ='v4a' />
+    <remote name = 'lolipuru' fetch='https://github.com/Garnet-X' revision ='lineage-21' />
+    <remote name = 'peridot-dev' fetch 'https://github.com/peridot-dev' revision ='lineage-21' />
+    <remote name = 'kernel' fetch='https://gitlab.com/Skeptcher' revision ='main' />
+
+        
 
     <!-- Device / Kernel prebuilts -->
     <project path="device/xiaomi/garnet" name="android_device_xiaomi_garnet" remote="garnet-x" />
     <project path="device/xiaomi/garnet-kernel" name="device_xiaomi_garnet-kernel" remote="garnet-x" />
+        
+    <project path="device/xiaomi/houji" name="android_device_xiaomi_houji" remote="lolipuru"/>
+    <project path="device/xiaomi/houji" name="android_device_xiaomi_houji-kernel" remote="kernel"/>
+    <project path="device/xiaomi/sm-8650-common" name="device_xiaomi_sm-8650-common" remote="lolipuru" />
 
 
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="hardware_xiaomi" remote="garnet-x" />
+    <!-- project path="hardware/xiaomi" name="andorid_hardware_xiaomi" remote="peridot-dev" / -->
 
 
     <!-- Proprietary vendor -->
