@@ -3,7 +3,7 @@
     <remote name = 'garnet-x' fetch='https://github.com/Garnet-X' revision ='14.0' />
     <remote name = 'viper' fetch='https://github.com/Garnet-X' revision ='v4a' />
     <remote name = 'lolipuru' fetch='https://github.com/Garnet-X' revision ='lineage-21' />
-    <remote name = 'peridot-dev' fetch 'https://github.com/peridot-dev' revision ='lineage-21' />
+    <remote name = 'peridot-dev' fetch='https://github.com/peridot-dev' revision ='lineage-21' />
     <remote name = 'kernel' fetch='https://gitlab.com/Skeptcher' revision ='main' />
 
         
