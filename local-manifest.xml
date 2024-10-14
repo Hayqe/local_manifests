@@ -13,7 +13,7 @@
     <project path="device/xiaomi/garnet-kernel" name="device_xiaomi_garnet-kernel" remote="garnet-x" />
         
     <project path="device/xiaomi/houji" name="android_device_xiaomi_houji" remote="lolipuru"/>
-    <project path="device/xiaomi/houji" name="android_device_xiaomi_houji-kernel" remote="kernel"/>
+    <project path="device/xiaomi/houji-kernel" name="android_device_xiaomi_houji-kernel" remote="kernel"/>
     <project path="device/xiaomi/sm-8650-common" name="device_xiaomi_sm-8650-common" remote="lolipuru" />
 
 
